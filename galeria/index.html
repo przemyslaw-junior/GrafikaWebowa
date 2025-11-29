@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawa i Psy - Galeria</title>
+    <link rel="preload" as="image" href="images/img01/img01-large.webp" type="image/webp">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero__content">
+            <p class="eyebrow">Galeria tematyczna</p>
+            <h1>Kawa i Psy</h1>
+            <p class="lede">Lekka, responsywna galeria z optymalizacja obrazow, filtrami i efektem hover.</p>
+        </div>
+    </header>
+
+    <main class="gallery" aria-label="Galeria kawy i psow">
+        <picture class="card card--warm">
+            <source type="image/webp" media="(max-width: 600px)" srcset="images/img01/img01-small.webp">
+            <source type="image/webp" media="(max-width: 1024px)" srcset="images/img01/img01-medium.webp">
+            <source type="image/webp" media="(min-width: 1025px)" srcset="images/img01/img01-large.webp">
+            <img src="images/img01/img01-fallback.jpg" alt="Latte art i ziarenka kawy" class="card__img">
+        </picture>
+
+        <picture class="card card--cool">
+            <source type="image/webp" media="(max-width: 600px)" srcset="images/img02/img02-small.webp">
+            <source type="image/webp" media="(max-width: 1024px)" srcset="images/img02/img02-medium.webp">
+            <source type="image/webp" media="(min-width: 1025px)" srcset="images/img02/img02-large.webp">
+            <img src="images/img02/img02-fallback.jpg" alt="Usmiechniety pies w kawiarni" loading="lazy" decoding="async" class="card__img">
+        </picture>
+
+        <picture class="card card--bold">
+            <source type="image/webp" media="(max-width: 600px)" srcset="images/img03/img03-small.webp">
+            <source type="image/webp" media="(max-width: 1024px)" srcset="images/img03/img03-medium.webp">
+            <source type="image/webp" media="(min-width: 1025px)" srcset="images/img03/img03-large.webp">
+            <img src="images/img03/img03-fallback.jpg" alt="Pies pilnujacy swiezo palonej kawy" loading="lazy" decoding="async" class="card__img">
+        </picture>
+
+        <picture class="card card--warm">
+            <source type="image/webp" media="(max-width: 600px)" srcset="images/img04/img04-small.webp">
+            <source type="image/webp" media="(max-width: 1024px)" srcset="images/img04/img04-medium.webp">
+            <source type="image/webp" media="(min-width: 1025px)" srcset="images/img04/img04-large.webp">
+            <img src="images/img04/img04-fallback.jpg" alt="Espresso i pies typu beagle" loading="lazy" decoding="async" class="card__img">
+        </picture>
+
+        <picture class="card card--cool">
+            <source type="image/webp" media="(max-width: 600px)" srcset="images/img05/img05-small.webp">
+            <source type="image/webp" media="(max-width: 1024px)" srcset="images/img05/img05-medium.webp">
+            <source type="image/webp" media="(min-width: 1025px)" srcset="images/img05/img05-large.webp">
+            <img src="images/img05/img05-fallback.jpg" alt="Cappuccino i maly szczeniak" loading="lazy" decoding="async" class="card__img">
+        </picture>
+
+        <picture class="card card--bold">
+            <source type="image/webp" media="(max-width: 600px)" srcset="images/img06/img06-small.webp">
+            <source type="image/webp" media="(max-width: 1024px)" srcset="images/img06/img06-medium.webp">
+            <source type="image/webp" media="(min-width: 1025px)" srcset="images/img06/img06-large.webp">
+            <img src="images/img06/img06-fallback.jpg" alt="Pies owczarek i kawiarniana witryna" loading="lazy" decoding="async" class="card__img">
+        </picture>
+
+        <picture class="card card--warm">
+            <source type="image/webp" media="(max-width: 600px)" srcset="images/img07/img07-small.webp">
+            <source type="image/webp" media="(max-width: 1024px)" srcset="images/img07/img07-medium.webp">
+            <source type="image/webp" media="(min-width: 1025px)" srcset="images/img07/img07-large.webp">
+            <img src="images/img07/img07-fallback.jpg" alt="Ziarna arabiki w dloni i pies husky" loading="lazy" decoding="async" class="card__img">
+        </picture>
+
+        <picture class="card card--cool">
+            <source type="image/webp" media="(max-width: 600px)" srcset="images/img08/img08-small.webp">
+            <source type="image/webp" media="(max-width: 1024px)" srcset="images/img08/img08-medium.webp">
+            <source type="image/webp" media="(min-width: 1025px)" srcset="images/img08/img08-large.webp">
+            <img src="images/img08/img08-fallback.jpg" alt="Flat white i spiacy golden retriever" loading="lazy" decoding="async" class="card__img">
+        </picture>
+
+        <picture class="card card--bold">
+            <source type="image/webp" media="(max-width: 600px)" srcset="images/img09/img09-small.webp">
+            <source type="image/webp" media="(max-width: 1024px)" srcset="images/img09/img09-medium.webp">
+            <source type="image/webp" media="(min-width: 1025px)" srcset="images/img09/img09-large.webp">
+            <img src="images/img09/img09-fallback.jpg" alt="Chemex, drip i pies border collie" loading="lazy" decoding="async" class="card__img">
+        </picture>
+
+        <picture class="card card--warm">
+            <source type="image/webp" media="(max-width: 600px)" srcset="images/img10/img10-small.webp">
+            <source type="image/webp" media="(max-width: 1024px)" srcset="images/img10/img10-medium.webp">
+            <source type="image/webp" media="(min-width: 1025px)" srcset="images/img10/img10-large.webp">
+            <img src="images/img10/img10-fallback.jpg" alt="Kawiarniany stolik z psem na smyczy" loading="lazy" decoding="async" class="card__img">
+        </picture>
+    </main>
+
+    <footer class="footer">
+        <p>Galeria optymalizowana: WebP, lazy loading, preload, Flexbox.</p>
+    </footer>
+</body>
+</html>
